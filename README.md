@@ -1,12 +1,59 @@
-# Pinball Locations Near Me
+# Pinball Locator App
 
 ## Overview
-Using whatever language you feel most comfortable with, leverage the pinballmap API to find the nearest pinball locations.
 
-## Requirements
-- Use the https://pinballmap.com/api/v1/docs API.
-- The user should be able to both enter their latitude and longitude and auto-fill their latitude and longitude fields by clicking a Near Me button.
-- When the user clicks the Search button, a list of closest pinball locations appear on the page.
+The Pinball Locator App is a web application that allows users to find pinball locations based on their geographic coordinates. It leverages the Pinball Map API(https://pinballmap.com/api/v1/docs) to retrieve pinball locations within a specified range of latitude and longitude.
 
-## Submission
-Once complete, reply to the original email that you recieved from us with the link to your Github repo.
+## Features
+
+- **Search by Coordinates:** Users can enter latitude and longitude values to search for pinball locations in a specific area.
+- **Near Me:** Users can use their device's geolocation to find pinball locations near their current location.
+- **Error Handling:** The app provides feedback on invalid coordinates and handles errors from the Pinball Map API.
+
+## Technologies Used
+
+- React
+- JavaScript
+- Pinball Map API
+- Styled Components
+- Testing Library
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone 
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd pinball-locator-app
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+
+4. Start the development server:
+
+    ```bash
+    npm start
+
+5. Open the app in your browser:
+
+    ```bash
+    http://localhost:3000
+
+### Test
+
+#### Run tests using the following command:
+
+    ```bash
+    npm test
