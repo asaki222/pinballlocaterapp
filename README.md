@@ -55,3 +55,8 @@ The Pinball Locator App is a web application that allows users to find pinball l
 
 #### Run tests using the following command:
         npm test
+
+
+## Sorting Locations if I had more time
+
+Sorting locations by distance of inputtws longitude and latitude.
