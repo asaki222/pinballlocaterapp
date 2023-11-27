@@ -54,5 +54,5 @@ The Pinball Locator App is a web application that allows users to find pinball l
 ### Test
 
 #### Run tests using the following command:
-    ```bash
-    npm test
+        ```bash
+        npm test
