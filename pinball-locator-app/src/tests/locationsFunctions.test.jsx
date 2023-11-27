@@ -29,7 +29,7 @@ const mockData = {
 
 describe('fetchPinballLocationsNearLatLon', () => {
   beforeEach(() => {
-    global.fetch = jest.fn(); // Reset the fetch function before each test
+    global.fetch = jest.fn(); 
   });
 
   it('fetches pinball locations successfully', async () => {
@@ -58,7 +58,6 @@ describe('fetchPinballLocationsNearLatLon', () => {
       expect(error.message).toContain('Pinball Map API error');
     }
   
-    // Check that the fetch function was called with the correct URL
     expect(global.fetch).toHaveBeenCalledWith(
       expect.stringContaining('https://pinballmap.com/api/v1/locations/within_bounding_box.json')
     );

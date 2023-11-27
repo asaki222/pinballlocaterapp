@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, fireEvent, waitFor, screen } from '@testing-library/react';
-import '@testing-library/jest-dom/extend-expect'; // To extend Jest's expect functionalities
+import '@testing-library/jest-dom/extend-expect'; 
 import PinballLocator from '../PinballLocator/PinballLocator';
 import { fetchLocations } from '../utils/locationFunctions';
 
